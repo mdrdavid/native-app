@@ -28,16 +28,20 @@ export default function App() {
 		// 		width: "100%",
 		// 		height: "100%",
 		// 		flex: 1,
+		// 		flexDirection: "row",
+		// 		justifyContent: "center",
+		// 		alignItems: "center",
+		// 		paddingTop: 30
 		// 	}}
 		// >
-		// 	<View style={{ backgroundColor: "blue", flex: 1 }} />
-		// 	<View style={{ backgroundColor: "yellow", flex: 1 }} />
-		// 	<View style={{ backgroundColor: "orange", flex: 1 }} />
+		// 	<View style={{ backgroundColor: "blue", width: 100, height: 100}} />
+		// 	<View style={{ backgroundColor: "yellow",width: 100, height: 100 }} />
+		// 	<View style={{ backgroundColor: "orange", width: 100, height: 100}} />
 		// </View>
 		<ScrollView>
 		<SafeAreaView style={styles.container}>
-			<Text>Hello World!!</Text>
-			<Text>Open up App.js to start working on your app!</Text>
+			<Text style={{fontSize: 30}}>Hello World!!</Text>
+			<Text style={{padding: 10, fontSize: 18}}>Learning Never Stop</Text>
 			{/* <Image
 		  style={styles.tinyLogo}
 		  source={require('./assets/david.jpg')}/> */}
@@ -54,7 +58,7 @@ export default function App() {
 
 			{/* <StatusBar style="auto" /> */}
 			<View>
-				<Text style={styles.title}>
+				<Text style={{margin: 30}}>
 					The title and onPress handler are required. It is recommended to set
 					accessibilityLabel to help make your app usable by everyone.
 				</Text>
@@ -75,7 +79,7 @@ export default function App() {
 		    backgroundColor: "black",
 		    width: "100%",
 		    height: landscape ? "100%" : "30%",
-		    marginTop: 10,
+		    marginTop: 30,
 		    marginLeft: 0,
 		    padding: 6,
 		  }}>
@@ -106,7 +110,7 @@ const styles = StyleSheet.create({
 		},
 		title: {
 			textAlign: "center",
-			marginVertical: 8,
+			marginVertical: 10,
 		},
 		separator: {
 			marginVertical: 8,
