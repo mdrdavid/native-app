@@ -79,7 +79,7 @@ export default function App() {
 		    marginLeft: 0,
 		    padding: 6,
 		  }}>
-				<Text style={{color: "white", fontSize: 16, textAlign: "center"}}>hello there </Text>
+				<Text style={{color: "white", fontSize: 16, textAlign: "center"}}>Hello there. Learn React Native</Text>
 			</View>
 		</SafeAreaView>
 		</ScrollView>
